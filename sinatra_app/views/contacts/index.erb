@@ -1,4 +1,5 @@
 <h2>Contacts</h2>
+<button><a href="/contacts/new">Add new</a></button>
 
 <% @contacts.each_with_index do |contact, i| %>
     <h3><a href="/contacts/<%= i %>"><%= contact[:name] %></a></h3>
